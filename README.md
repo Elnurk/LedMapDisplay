@@ -1,13 +1,13 @@
 # LedMapDisplay
 
-LedMapDisplay is a demonstration project for interfacing a matrix keypad with a LiquidCrystal I2C display using an Arduino‑compatible microcontroller.  The sketch shows how to map custom keypads, capture user input and print it to a 20×4 LCD screen.  It was developed as an educational example for robotics competitions and microcontroller experiments.
+LedMapDisplay is a demonstration project for interfacing a matrix keypad with a LiquidCrystal I2C display using an Arduino‑compatible microcontroller to show selected path using LED map.  The sketch shows how to map custom keypads, capture user input and print it to a 20×4 LCD screen.  It was developed to experiment with a microcontroller.
 
 ## Features
 
 - **Custom keypad mapping:** defines a 4×3 matrix keypad with flexible key assignments.
 - **User input capture:** reads keypad presses in real‑time and appends the pressed digits to a string.
 - **LCD display interface:** displays each pressed key immediately on a 20×4 I2C LCD (address 0x27).
-- **Clear and display functions:** `*` clears the screen and resets input; `#` prints the full entered value and clears the screen.
+- **Clear and display functions:** `*` clears the screen and resets input; `#` prints the full entered value, shows path on LED Map and clears the screen.
 - **Simple, modular code:** easy to adapt for different keypad sizes, LCD sizes or additional functionality.
 
 ## Hardware
